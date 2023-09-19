@@ -854,6 +854,18 @@ video {
   width: 40px;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-\[849\] {
+  width: 849;
+}
+
+.w-\[849px\] {
+  width: 849px;
+}
+
 .table-auto {
   table-layout: auto;
 }
