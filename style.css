@@ -1100,6 +1100,10 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
+.whitespace-normal {
+  white-space: normal;
+}
+
 .whitespace-pre-line {
   white-space: pre-line;
 }
@@ -1728,6 +1732,10 @@ video {
 
   .lg\:whitespace-normal {
     white-space: normal;
+  }
+
+  .lg\:whitespace-pre-line {
+    white-space: pre-line;
   }
 
   .lg\:text-left {
