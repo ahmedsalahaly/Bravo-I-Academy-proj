@@ -918,6 +918,10 @@ video {
   width: 100%;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .table-fixed {
   table-layout: fixed;
 }
@@ -1734,6 +1738,10 @@ video {
 
   .lg\:h-screen {
     height: 100vh;
+  }
+
+  .lg\:w-\[715px\] {
+    width: 715px;
   }
 
   .lg\:grid-cols-2 {
