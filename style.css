@@ -1794,6 +1794,18 @@ video {
     white-space: pre-line;
   }
 
+  .lg\:border-r-\[1px\] {
+    border-right-width: 1px;
+  }
+
+  .lg\:border-r-\[0px\] {
+    border-right-width: 0px;
+  }
+
+  .lg\:border-b-\[0px\] {
+    border-bottom-width: 0px;
+  }
+
   .lg\:text-left {
     text-align: left;
   }
