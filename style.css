@@ -1264,12 +1264,21 @@ video {
   background-color: #ffffff12;
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-cover {
   background-size: cover;
 }
 
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .bg-no-repeat {
@@ -1361,6 +1370,16 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-0 {
@@ -1664,6 +1683,11 @@ video {
 .hover\:shadow-\[\#DED372\]:hover {
   --tw-shadow-color: #DED372;
   --tw-shadow: var(--tw-shadow-colored);
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (prefers-color-scheme: dark) {
